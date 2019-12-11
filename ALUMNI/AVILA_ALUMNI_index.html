@@ -3,18 +3,18 @@
 <head>
 	<title>University of Immaculate Conception</title>
 	<link rel="stylesheet" type="text/css" href="AVILA_ALUMNI_style.css">
-	<script src="C:\Users\CarloPerez\Pictures\abPhoto\WebDev_Act05-master\ALUMNI\function.js"></script>
+	<script src="function.js"></script>
 </head>
 <body>
 	  <header> 
 		<div class="UIC_text">
 		Univeristy of Immaculate Conception
 		</div>
-		<div class="other_text">
-		Contact Us
+		<div class="other_text"><a href="https://www.uic.edu.ph/?s=contact+number" class="header_text">
+		Contact Us</a>
 		</div>
-		<div class="UIC_text">
-		About Us
+		<div class="UIC_text"><a href="https://www.uic.edu.ph/uic-history/" class="header_text">
+		About Us</a>
 		</div>
 	  </header>
 	 <div class="uic_logo_container">
@@ -23,166 +23,39 @@
 	<div class="profile_container">
 		<img src="profile.png" class="profile_icon">
 		<hr class="hr_profile">
-		<div class="profile_info">Financial Records
+		<div class="profile_info"><a href="https://my.uic.edu.ph/index.cfm?fa=student.student_financial_record" class="none"> Financial Records</a>
 		</div>
-		<div class="profile_info">Academic Records
+		<div class="profile_info"><a href="https://my.uic.edu.ph/index.cfm?fa=academic_record.view_student_academic_records" class="none">Academic Records</a>
 		</div>
-		<div class="profile_info">Online Enrollment
+		<div class="profile_info"><a href="https://my.uic.edu.ph/index.cfm?fa=online_enrolment.online_enrolment_application_index" class="none">Online Enrollment</a>
 		</div>
-		<div class="profile_info">Faculty Evalution
+		<div class="profile_info"><a href="https://my.uic.edu.ph/index.cfm?fa=faculty_evaluation.index" class="none">Faculty Evalution</a>
 		</div>
-		<input type="button" class="logout_button" value="LOGOUT"></button>
+		    <div class="popup" onclick="message()">
+ 			<span class="popuptext" id="myPopup">Are you sure you want to logout this account?
+ 				<input type="button" class="yes_no" value="YES" onclick="location.href='https://my.uic.edu.ph/index.cfm?fa=login.login_show'">
+ 				<h5>OR</h5>
+ 				<input type="button" class="yes_no" value="NO" onclick="location.href='AVILA_ALUMNI_index.html'">
+ 			</span>
+			</div>
+		   	<input type="button" class="logout_button" value="LOGOUT" onclick="message()"></button>
 	</div>
 	<div class="body_container">
 		<h1 class="h1">Notification</h1>
 		<hr class="hr_notifications">
 		<div class="notif_container">
 			<img src="notif.png" class="notif_icon">
-			<div class="notif_text">You are still using default password.<br>Please change it to more secure on by<br>clicking <a href="">here</a></div>
+			<div class="notif_text">You are still using default password.<br>Please change it to more secure on by<br>clicking <a href="https://my.uic.edu.ph/index.cfm?fa=account.change_password">here</a></div>
 		</div>
 		<h1 class="h2">Response</h1>
 		<hr class="hr_response">
-		<img src="alumni1.png" class="alumni">	
-		<img src="alumni2.png" class="alumni">	
-		<img src="alumni3.png" class="alumni">	
+		<a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="alumni1.png" class="alumni"></a>
+		<a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="alumni2.png" class="alumni"></a>
+		<a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="alumni3.png" class="alumni"></a>
+		<div class="alumni_1"> Jose P. Laurel<br>replied on your email<br>12:00pm</div>	
+		<div class="alumni_2"> Jose P. Rizal<br>replied on your email<br>12:00am</div>
+		<div class="alumni_3"> Jose P. Mercado<br>replied on your email<br>11:11pm</div>
     </div>
-    	<div id="live-chat">
-		<header class="clearfix">
-			<a href="#" class="chat-close">x</a>
-			<h4><span aria-hidden="true" class="icon-bubble"></span> Chat</h4>
-			<span class="chat-message-counter">3</span>
-
-		</header>
-
-		<div class="chat">
-            <div id="chatbox">
-                <div id="friendslist">
-                    <div id="friends">
-                        <div class="friend">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />
-                            <p>
-                                <strong>Miro Badev</strong>
-                                <span>mirobadev@gmail.com</span>
-                            </p>
-                            <div class="status available"></div>
-                        </div>
-
-                        <div class="friend">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg" />
-                            <p>
-                                <strong>Martin Joseph</strong>
-                                <span>marjoseph@gmail.com</span>
-                            </p>
-                            <div class="status away"></div>
-                        </div>
-
-                        <div class="friend">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3_copy.jpg" />
-                            <p>
-                                <strong>Tomas Kennedy</strong>
-                                <span>tomaskennedy@gmail.com</span>
-                            </p>
-                            <div class="status inactive"></div>
-                        </div>
-
-                        <div class="friend">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4_copy.jpg" />
-                            <p>
-                                <strong>Enrique	Sutton</strong>
-                                <span>enriquesutton@gmail.com</span>
-                            </p>
-                            <div class="status inactive"></div>
-                        </div>
-
-                        <div class="friend">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/5_copy.jpg" />
-                            <p>
-                            <strong>	Darnell	Strickland</strong>
-                                <span>darnellstrickland@gmail.com</span>
-                            </p>
-                            <div class="status inactive"></div>
-                        </div>
-
-                        <div id="search">
-                            <input type="text" id="searchfield" value="Search contacts..." />
-                        </div>
-
-                    </div>                
-
-                </div>	
-
-                <div id="chatview" class="p1">    	
-                    <div id="profile">
-
-                        <div id="close">
-                            <div class="cy"></div>
-                            <div class="cx"></div>
-                        </div>
-
-                        <p>Miro Badev</p>
-                        <span>miro@badev@gmail.com</span>
-                    </div>
-                    <div id="chat-messages">
-                        <label>Thursday 02</label>
-
-                        <div class="message">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />
-                            <div class="bubble">
-                                Really cool stuff!
-                                <div class="corner"></div>
-                                <span>3 min</span>
-                            </div>
-                        </div>
-
-                        <div class="message right">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg" />
-                            <div class="bubble">
-                                Can you share a link for the tutorial?
-                                <div class="corner"></div>
-                                <span>1 min</span>
-                            </div>
-                        </div>
-
-                        <div class="message">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />
-                            <div class="bubble">
-                                Yeah, hold on
-                                <div class="corner"></div>
-                                <span>Now</span>
-                            </div>
-                        </div>
-
-                        <div class="message right">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg" />
-                            <div class="bubble">
-                                Can you share a link for the tutorial?
-                                <div class="corner"></div>
-                                <span>1 min</span>
-                            </div>
-                        </div>
-
-                        <div class="message">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />
-                            <div class="bubble">
-                                Yeah, hold on
-                                <div class="corner"></div>
-                                <span>Now</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div id="sendmessage">
-                        <input type="text" value="Send message..." />
-                        <button id="send"></button>
-                    </div>
-
-                </div>        
-            </div>	
-            <!-- end live-chat -->
-
-		</div> <!-- end chat -->
-
-	</div> <!-- end live-chat -->
+</div>
 </body>
 </html>
